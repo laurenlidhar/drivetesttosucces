@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+   <children>
+      <AnchorPane opacity="0.59" prefHeight="1434.0" prefWidth="1100.0" style="-fx-background-color: green;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="276.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/bush.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8d8f90" height="1704.0" layoutX="367.0" layoutY="-109.0" rotate="-50.9" stroke="#b9b7b7" strokeType="INSIDE" width="303.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8d8f90" height="242.0" layoutX="-12.0" layoutY="-23.0" stroke="#8d8c8c" strokeType="INSIDE" width="1106.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5d63b" height="39.0" layoutX="11.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="108.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5d63b" height="39.0" layoutX="218.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="108.0" />
+            <Text layoutX="400.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEST DRIVE" wrappingWidth="664.9632425451382">
+               <font>
+                  <Font name="SansSerif Bold" size="70.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5d63b" height="39.0" layoutX="40.0" layoutY="343.0" rotate="41.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="106.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5d63b" height="39.0" layoutX="906.0" layoutY="57.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="108.0" />
+            <Button fx:id="buttonPlay" layoutX="711.0" layoutY="293.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="195.0" onAction="#handleButtonAction2" text="PLAY">
+               <font>
+                  <Font name="System Font" size="31.0" />
+               </font>
+            </Button>
+            <Button layoutX="715.0" layoutY="421.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="195.0" text="TUTORIAL">
+               <font>
+                  <Font name="System Font" size="31.0" />
+               </font>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5d63b" height="39.0" layoutX="260.0" layoutY="536.0" rotate="41.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="106.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5d63b" height="39.0" layoutX="511.0" layoutY="754.0" rotate="41.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="106.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5d63b" height="36.0" layoutX="767.0" layoutY="981.0" rotate="41.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="106.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5d63b" height="39.0" layoutX="986.0" layoutY="1175.0" rotate="41.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="106.0" />
+            <ImageView fitHeight="170.0" fitWidth="200.0" layoutX="140.0" layoutY="419.0" pickOnBounds="true" preserveRatio="true" rotate="130.3">
+               <image>
+                  <Image url="@images/redCar.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="68.0" layoutY="707.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/bush.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
